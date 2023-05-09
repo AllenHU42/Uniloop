@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 13, in script
-    jump wake_up
-ScriptError: could not find label 'wake_up'.
+  File "game/scripts/part1/1_wake_up.rpy", line 9, in script
+    her "哥哥.. 快起床啦！ >w<"
+Exception: Sayer 'her' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 13, in script
-    jump wake_up
-  File "C:\Users\water\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1974, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\water\Downloads\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'wake_up'.
+  File "game/scripts/part1/1_wake_up.rpy", line 9, in script
+    her "哥哥.. 快起床啦！ >w<"
+  File "C:\Users\water\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\water\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'her' is not defined.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 Uniloop 1.0
-Tue May  9 17:31:11 2023
+Tue May  9 18:21:56 2023
