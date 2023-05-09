@@ -7,7 +7,7 @@
 define you = Character('你', color="#ffffff")
 define narrator = Character('旁白', color="#ffffff")
 define unicorn = Character('獨角獸妹妹', color="#960e96")
-
+define unicorn_allen = Character('獨角獸妹妹', color="#250daf")
 image unicorn_normal:
     "unicorn.png"
 # 遊戲從這裡開始。
