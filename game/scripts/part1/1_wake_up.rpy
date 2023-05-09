@@ -26,4 +26,4 @@ label wake_up:
     unicorn "那我只好幫你洗碗弄乾淨吧！"
     hide unicorn_normal with dissolve
     you "呼，她總算走了，我現在只好去看AKB48來解決我的AK-47了"
-
+    jump loop1

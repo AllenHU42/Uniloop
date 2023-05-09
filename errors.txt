@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/scripts/part1/1_wake_up.rpy", line 22: choice menuitem expects a non-empty block.
-    "把東西弄出來吧":
-              ^
+File "game/scripts/part2/2_loop2.rpy", line 1: Unexpected indentation at start of file.
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Tue May  9 18:47:31 2023
+Tue May  9 22:57:54 2023
