@@ -1,0 +1,2 @@
+scripts\part1\1_wake_up.rpy
+scripts\part1\1_wake_up.rpyc

@@ -4,14 +4,10 @@
 # eg. image eileen happy = "eileen_happy.png"
 
 # define命令可定義遊戲中出現的角色名稱與對應文本顏色。
-define e = Character('Eileen', color="#c8ffc8")
-
+define you = Character('你', color="#000000")
+define narrator = Character('旁白', color="#000000")
+define unicorn = Character('旁白', color="#960e96")
 
 # 遊戲從這裡開始。
 label start:
-
-    e "您已經創建了一個新的 Ren'Py 遊戲。"
-
-    e "當您添加一段故事, 圖片和音樂, 您就可以將它發佈給全世界！"
-
-    return
+    jump wake_up
