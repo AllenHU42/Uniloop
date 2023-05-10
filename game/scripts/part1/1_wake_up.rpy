@@ -25,5 +25,14 @@ label wake_up:
             unicorn "好吧... 既然這是哥哥的要求的話.. 那我.."
     unicorn "那我只好幫你洗碗弄乾淨吧！"
     hide unicorn_normal with dissolve
-    you "呼，她總算走了，我現在只好去看AKB48來解決我的AK-47了"
+    unicorn "對了快點準備一下！我們要去旅行咯"
+    narrator "（你聽到是突發旅行，你感到很興奮）"
+    unicorn "那麽我們要出發咯~"
+    narrator "（獨角獸妹妹左脚踩右脚慢慢升起）"
+    menu:
+        "學她左脚踩右脚":
+            narrator "（你們慢慢起飛）"
+        "用屁升天":
+            narrator "（你們慢慢起飛）"
+
     jump loop1
