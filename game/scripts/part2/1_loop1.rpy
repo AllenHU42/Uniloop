@@ -1,5 +1,16 @@
+image roomnight:
+    "Room_Night.jpg"
+    zoom 1.2
+image BathroomVirtual:
+    "Bathroom_night.jpg"
+    zoom 1.3
+    xalign -10
+image red:
+    "Red.jpg"
 label loop1:
+    scene black
     unicorn "哥哥.. 快起床啦！ >w<"
+    scene room
     narrator "（你看著獨角獸妹妹時扯了旗）"
     show ak47 with dissolve
     you "你 等我一下，我胯下的AK-47站起來了！"
@@ -19,6 +30,7 @@ label loop1:
             "好呀！我在這裏等你哦！對了快點準備一下！我們要去旅行咯！"
         "急尿":
             "好呀！我在這裏等你哦！對了快點準備一下！我們要去旅行咯！"
+    scene BathroomVirtual
     narrator "（你總覺得類似的事情發生過一次）"
     narrator "（你突然覺得很可疑）"
     unicorn "好了嗎？哥哥 …"
@@ -29,6 +41,7 @@ label loop1:
             jump loop1
         "我只想他幫我做三文治":
             narrator "（去完厠所準備開門時聽到外面有奇怪的聲音）"
+    scene roomnight
     narrator "（你打開門看見獨角獸妹妹的臉閃爍了一下）"
     unicorn "你出來了啊...哥哥。"
     you "（你察覺到獨角獸妹妹有點異樣）"
@@ -45,6 +58,7 @@ label loop1:
     scene black
     unicorn "只能重來了啊。"
     narrator "（你看見胸口被插了一刀）"
+    scene red
     menu:
         "啊~舒服~":
             narrator "（獨角獸妹妹拔出刀）"
