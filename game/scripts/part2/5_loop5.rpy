@@ -26,6 +26,7 @@ label loop5:
     narrator "（你現在覺得自己應該）"
     menu:
         "探索世界":
+            scene Apocalypse
             narrator "（你覺得應該去探索世界）"
             narrator "（你不知道這裏有沒有幸存者）"
             narrator "（但你依舊還是希望追逐這遙不可及的夢想）"
