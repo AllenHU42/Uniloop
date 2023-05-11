@@ -2,17 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/scripts/part1/1_wake_up.rpy", line 88: expected statement.
-    linear 0.2 xoffset -20 
-            ^
+File "game/scripts/part2/4_loop4.rpy", line 9: expected statement.
+    zoom 2
+          ^
 
-File "game/scripts/part1/1_wake_up.rpy", line 89: expected statement.
-    linear 0.2 xoffset +20 
-            ^
-
-File "game/scripts/part1/1_wake_up.rpy", line 90: expected statement.
-    repeat 5 
-             ^
+File "game/scripts/part2/5_loop5.rpy", line 40: choice menuitem expects a non-empty block.
+    "玩LOL":
+           ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed May 10 14:00:24 2023
+Thu May 11 16:40:50 2023

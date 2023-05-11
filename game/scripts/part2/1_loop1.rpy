@@ -7,6 +7,14 @@ image BathroomVirtual:
     xalign -10
 image red:
     "Red.jpg"
+image BathroomReal:
+    "Bathroom_real.jpg"
+image Apocalypse:
+    "Apocalypse.jpg"
+image electronicroom:
+    "electronic_room.jpg"
+image realroom:
+    "Real_Room.jpg"
 label loop1:
     scene black
     unicorn "哥哥.. 快起床啦！ >w<"
@@ -36,8 +44,8 @@ label loop1:
     unicorn "好了嗎？哥哥 …"
     menu:
         "你還想和獨角獸妹妹去旅行":
-            narrator "你突然眼前全黑"
-            you "頭....很沉...."
+            narrator "（於是你和獨角獸妹妹去了旅行）"
+            narrator "（回家後你睡了個好覺）"
             jump loop1
         "我只想他幫我做三文治":
             narrator "（去完厠所準備開門時聽到外面有奇怪的聲音）"
@@ -55,16 +63,16 @@ label loop1:
             unicorn"是嗎...那麼..."
         "去你媽":
             unicorn"是嗎...那麼..."
-    scene black
     unicorn "只能重來了啊。"
     narrator "（你看見胸口被插了一刀）"
-    scene red
+    scene red #shake screen here#
     menu:
         "啊~舒服~":
             narrator "（獨角獸妹妹拔出刀）"
         "你媽死了":
             narrator "（獨角獸妹妹拔出刀）"
     narrator "（你的視綫逐漸模糊）"
+    scene black
     jump loop2
         
         
