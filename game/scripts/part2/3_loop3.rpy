@@ -9,17 +9,17 @@ label loop3:
     play sound "audio/Yamete.mp3"
     unicorn "哥哥你真壞! 你再這樣我就不理你了!"
     you "這樣的話呀.. 那你幫我..."
-    menu:
+    menu f3:
         "把它弄乾淨":
-            narrator "（你突然眼前全黑）"
-            you "J....很沉...."
+            narrator "你真他媽變態，他只是個小女孩，你居然要他幫你洗碗？"
+            narrator "（你被强制重啓）"
             jump loop3
         "解釋一下你到底是誰":
             unicorn "哥哥你在説什麽呢？我就是你最愛的獨角獸妹妹啊！"
     menu:
         "也是，我到底在想什麽呢":
-            you "J....很沉...."
-            jump loop3
+            you "獨角獸妹妹就是獨角獸妹妹啊！"
+            jump f3
         "我看到了另一個你":
             unicorn "不可能的啊，這裏只有我們啊~"
     narrator "（你本來想追問，但突然你覺得...）"
@@ -31,13 +31,12 @@ label loop3:
     scene BathroomVirtual
     menu f2:
         "你還想和獨角獸妹妹去旅行":
-            you "J....很沉...."
-            narrator "（你的視綫逐漸模糊）"
+            narrator "（於是你和獨角獸妹妹去了旅行）"
+            narrator "（回家後你睡了個好覺）"
             jump loop3
         "我只想他幫我做三文治":
-            you "左睾元...很沉...."
-            narrator "（你的視綫逐漸模糊）"
-            jump loop3
+            you "我只想他做我的三文治夾心<3"
+            jump f2
         "照鏡子":
             narrator "（你還是覺得自己很樣衰）"
     you "鏡鏡這麽可愛，爲什麽要打歐鏡鏡！"
@@ -55,6 +54,9 @@ label loop3:
     narrator "（你察覺到獨角獸妹妹有點異樣）"
     menu:
         "你吃起了馬桶裏的屎":
+            you "肚子好痛！"
+            scene BathroomVirtual
+            narrator "（你立即跑回厠所裏開始噴屎）"
             jump toilet
         "你把屎扔到獨角獸妹妹的臉上":
             unicorn "你好玩不玩，玩屎？！"

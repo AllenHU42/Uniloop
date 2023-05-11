@@ -6,7 +6,6 @@ label loop4:
     menu:
         "掐死他":
             scene roomnight #shake screen here#
-            zoom 2
             narrator "（獨角獸妹妹被你按在了床上）"
     narrator "（獨角獸妹妹的臉開始閃爍，最後變成了Allen的樣子）"
     unicorn_allen "你不能...殺了我..."

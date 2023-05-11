@@ -1,7 +1,9 @@
 label loop5:
     scene black
     narrator "（你醒了過來）"
+    scene electronicroom
     you "這裏是哪裏？"
+    scene realroom
     narrator "（你看見躺在機器旁的兩句尸體）"
     narrator "（桌子上放了兩臺電腦）"
     narrator "（電腦上停留著阿卡莉被提莫致盲的那一刻）"
@@ -19,6 +21,7 @@ label loop5:
     narrator "（你的屎氣讓你記起了所有事情）"
     narrator "（你記得Joe Biden和Mbappe在快掉入尿裏時放了一個屁）"
     narrator "（但那個屁太響，讓普京以爲美國攻擊他，於是普京也放了一個屁，這個皮導致了連鎖反應，在這一刻，全世界的人都放了一個屁，世界的空氣因此變得不適宜人類呼吸）"
+    scene realroom
     narrator "（在這個世界末日之時，你們用光積蓄終於建造了一臺機器，這臺機器能將人的想象具象化，但可惜由於Plum和Allen銀行存款等於0，沒有時間和資源建多三臺，於是G7一行人決定用LOL單挑決定）"
     narrator "（由於G7和Plum刪除了LOL無法參加，於是Allen和你單挑，最後你用提莫致盲了Allen，導致Allen去厠所時掉入馬桶，但你們三人都以爲Allen便秘，於是沒有等Allen，你就進入了機器）"
     you "現在的空氣...不臭了...但你們老母的鮑魚...也不臭了..."
@@ -38,7 +41,7 @@ label loop5:
             narrator "（將你的奔周插入他媽的屁眼裏瘋狂抽插！）"
             #ending 1#
         "玩LOL":
-            #rickroll#
+            narrator "點解要玩屎？" #play rickroll#
         "再次進入機器":
             narrator "（你進入了機器）"
             narrator "（你再次看見了Allen獸妹妹）"
