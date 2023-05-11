@@ -1,14 +1,17 @@
 label loop3:
+    scene black
     narrator "（你醒了過來）"
     unicorn "哥哥.. 快起床啦！ >w<"
+    scene room
     show ak47 with dissolve
     narrator "（你覺得自己已經扯過一次旗）"
     you "你 等我一下，我胯下的AK-47站起來了!"
+    play sound "audio/Yamete.mp3"
     unicorn "哥哥你真壞! 你再這樣我就不理你了!"
     you "這樣的話呀.. 那你幫我..."
     menu:
         "把它弄乾淨":
-            narrator "你突然眼前全黑"
+            narrator "（你突然眼前全黑）"
             you "J....很沉...."
             jump loop3
         "解釋一下你到底是誰":
@@ -25,12 +28,15 @@ label loop3:
             unicorn "好呀！我在這裏等你哦！對了快點準備一下！我們要去旅行咯！"
         "急尿":
             unicorn "好呀！我在這裏等你哦！對了快點準備一下！我們要去旅行咯！"
+    scene BathroomVirtual
     menu f2:
         "你還想和獨角獸妹妹去旅行":
             you "J....很沉...."
+            narrator "（你的視綫逐漸模糊）"
             jump loop3
         "我只想他幫我做三文治":
             you "左睾元...很沉...."
+            narrator "（你的視綫逐漸模糊）"
             jump loop3
         "照鏡子":
             narrator "（你還是覺得自己很樣衰）"
@@ -38,9 +44,12 @@ label loop3:
     narrator "（你看著馬桶裏的屎）"
     menu toilet:
         "你吃起了馬桶裏的屎":
+            you "係...係鮑魚味的屎！"
+            narrator "（你的視綫逐漸模糊）"
             jump loop2
         "你拿起了馬桶裏的屎":
             narrator "（去完厠所準備開門時聽到外面有奇怪的聲音）"
+    scene roomnight
     narrator "（你打開門看見獨角獸妹妹的臉閃爍了一下）"
     unicorn "獨角獸妹妹：你出來了啊...哥哥。"
     narrator "（你察覺到獨角獸妹妹有點異樣）"
@@ -59,5 +68,6 @@ label loop3:
     unicorn_allen "只要你一直在循環裏..."
     narrator "（你的視綫逐漸模糊）"
     unicorn_allen "你就不用面對這殘酷的現實了。"
+    scene blank
     jump loop4
     
