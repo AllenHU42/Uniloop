@@ -19,6 +19,7 @@ label loop1:
     scene black
     unicorn "哥哥.. 快起床啦！ >w<"
     scene room
+    show unicorn_normal at center
     narrator "（你看著獨角獸妹妹時扯了旗）"
     show ak47 with dissolve
     you "你 等我一下，我胯下的AK-47站起來了！"
@@ -41,7 +42,7 @@ label loop1:
     scene BathroomVirtual
     narrator "（你總覺得類似的事情發生過一次）"
     narrator "（你突然覺得很可疑）"
-    unicorn "好了嗎？哥哥 …"
+    unicorn "好了嗎？哥哥 ..."
     menu:
         "你還想和獨角獸妹妹去旅行":
             narrator "（於是你和獨角獸妹妹去了旅行）"

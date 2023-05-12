@@ -47,10 +47,10 @@ label loop5:
             narrator "（你再次看見了Allen獸妹妹）"
             unicorn_allen "你回來了...哥哥。"
             you "嗯..."
-            unicorn_allen "那你打算怎麽做？我已經del完bug，這次你一死就會失去所有記憶。選擇在你手上。"
+            unicorn_allen "那你打算怎麼做？我已經del完bug，這次你一死就會失去所有記憶。選擇在你手上。"
             menu:
                 "要求Allen獸妹妹殺了自己":
-                    unicorn_allen "Allen獸妹妹：嗯，知道了，那麽我們重啓吧。"
+                    unicorn_allen "Allen獸妹妹：嗯，知道了，那麼我們重啓吧。"
                     jump loop1
                 "和Allen獸妹妹説再見":
                     unicorn_allen "嗯，知道了，也許不被束縛才是幸福的吧。"

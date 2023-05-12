@@ -28,7 +28,7 @@ transform cum:
     linear 0.2 xoffset -20 #move left 20 pixel in 0.2 seconds
     linear 0.2 xoffset +20 #move right 20 pixel in 0.2 seconds
     repeat 5 #repeat the above 5 times
-define joe = Character('Joe Mama', color="#97abe2")
+define joe = Character('joe Mama', color="#97abe2")
 label wake_up:
     scene black
     you "頭....很沉...."
@@ -91,7 +91,7 @@ label wake_up:
     unicorn "登機~"
     narrator "（你跟著獨角獸妹妹從射出白色液體的洞口進入飛機）"
     narrator "（你看見了沉睡小孩獵人Joe Biden和法國噴水龜Mbappe）"
-    Joe "呃呃...sfmfnjdizpkwondaskf…ndnsfj…ChinaXiJingPing…"
+    joe "呃呃...sfmfnjdizpkwondaskf...ndnsfj...ChinaXiJingPing..."
     narrator "（Mbappe開始噴水）"
     narrator "（你感覺到被冒犯）"
     menu:
@@ -103,13 +103,13 @@ label wake_up:
     narrator "（你趕緊衝出去看見Joe Biden背著降落傘）"
     menu:
         "搶了他的降落傘":
-            Joe "FBUIDBIUUIODSVNUISDBVISVHODVXOWUD…BINGCHILLING！"
+            joe "FBUIDBIUUIODSVNUISDBVISVHODVXOWUD...BINGCHILLING！"
     narrator "（你跳出了飛機）"
-    Joe "FSDSHIVUVUSVSIOHWDIJFCODSN…PUSSYKENNYKAIWANXIAO！"
+    joe "FSDSHIVUVUSVSIOHWDIJFCODSN...PUSSYKENNYKAIWANXIAO！"
     narrator "（Joe Biden撞在你身上）"
     narrator "（你拼命甩開Joe Biden）"
     narrator "（獨角獸妹妹趕了過來，一把扯開Joe Biden）"
-    Joe "FNISDOIFWXOVWDUSCIBODCSDN…KIDPUSSY！"
+    joe "FNISDOIFWXOVWDUSCIBODCSDN...KIDPUSSY！"
     narrator "（Joe Biden想去聞獨角獸妹妹）"
     menu:
         "和他一起聞":
@@ -118,7 +118,7 @@ label wake_up:
             narrator "（Joe Biden用mabappe作為pokemon噴水龜）"
     narrator "（你召喚了獨角獸妹妹）"
     narrator "（Joe Biden突然忘記了自己生存的意義）"
-    Joe "呃..."
+    joe "呃..."
     narrator "（你趁機打開降落傘）"
     narrator "（你發現Joe Biden的降落傘只是普通的書包）"
     narrator "（你嚇到瀨尿，由於太久沒屙過尿，尿液的量包裹了整個法國並造成了史上最大型的水浸）"

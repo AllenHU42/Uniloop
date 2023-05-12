@@ -3,6 +3,7 @@ label loop3:
     narrator "（你醒了過來）"
     unicorn "哥哥.. 快起床啦！ >w<"
     scene room
+    show unicorn_normal at center
     show ak47 with dissolve
     narrator "（你覺得自己已經扯過一次旗）"
     you "你 等我一下，我胯下的AK-47站起來了!"
@@ -15,9 +16,9 @@ label loop3:
             narrator "（你被强制重啓）"
             jump loop3
         "解釋一下你到底是誰":
-            unicorn "哥哥你在説什麽呢？我就是你最愛的獨角獸妹妹啊！"
+            unicorn "哥哥你在説什麼呢？我就是你最愛的獨角獸妹妹啊！"
     menu:
-        "也是，我到底在想什麽呢":
+        "也是，我到底在想什麼呢":
             you "獨角獸妹妹就是獨角獸妹妹啊！"
             jump f3
         "我看到了另一個你":
@@ -39,7 +40,7 @@ label loop3:
             jump f2
         "照鏡子":
             narrator "（你還是覺得自己很樣衰）"
-    you "鏡鏡這麽可愛，爲什麽要打歐鏡鏡！"
+    you "鏡鏡這麼可愛，爲什麼要打歐鏡鏡！"
     narrator "（你看著馬桶裏的屎）"
     menu toilet:
         "你吃起了馬桶裏的屎":
@@ -64,7 +65,7 @@ label loop3:
     narrator "（獨角獸妹妹的臉變成Allen的臉）"
     you "你是？！"
     unicorn_allen "別看我的臉！你不能想起我的存在！"
-    you "頭好痛！你做了什麽！"
+    you "頭好痛！你做了什麼！"
     unicorn_allen "那是你的記憶要回來的前兆！"
     narrator "（一把飛刀插在了你的頭上）"
     unicorn_allen "只要你一直在循環裏..."

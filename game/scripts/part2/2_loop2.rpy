@@ -3,6 +3,7 @@ label loop2:
     narrator "（你醒了過來）"
     unicorn "哥哥.. 快起床啦！ >w<"
     scene room
+    show unicorn_normal at center
     show ak47 with dissolve
     narrator "（你覺得自己已經扯過一次旗）"
     you "你 等我一下，我胯下的AK-47站起來了!"
@@ -15,9 +16,9 @@ label loop2:
             narrator "（你被强制重啓）"
             jump loop2
         "解釋一下你到底是誰":
-            unicorn "哥哥你在説什麽呢？我就是你最愛的獨角獸妹妹啊！"
+            unicorn "哥哥你在説什麼呢？我就是你最愛的獨角獸妹妹啊！"
     menu:
-        "也是，我到底在想什麽呢":
+        "也是，我到底在想什麼呢":
             you "獨角獸妹妹就是獨角獸妹妹啊！"
             jump f4
         "我看到了另一個你":
@@ -40,7 +41,7 @@ label loop2:
         "照鏡子":
             narrator "（你覺得自己很樣衰）"
     menu:
-        "我比G7靚仔":
+        "我比G7帥":
             "Nah"
             jump f1
         "衰你老母，Plum肥過我老豆老母加埋Allen條J":
@@ -51,7 +52,7 @@ label loop2:
             "Nah"
             jump f1
         "拿起防身":
-            narrator "（去完厠所準備開門時聽到外面有奇怪的聲音）"
+            narrator "（去完廁所準備開門時聽到外面有奇怪的聲音）"
     scene roomnight
     narrator "（你打開門看見獨角獸妹妹的臉閃爍了一下）"
     unicorn "你出來了啊...哥哥。"

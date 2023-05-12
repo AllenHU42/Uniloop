@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/part1/1_wake_up.rpy", line 94, in script
-    Joe "呃呃...sfmfnjdizpkwondaskf…ndnsfj…ChinaXiJingPing…"
-Exception: Sayer 'Joe' is not defined.
+  File "game/scripts/part2/4_loop4.rpy", line 20, in script
+    Allen獸妹妹 "呃！你爲什麽...那麽執著...美好的虛擬世界不好嗎？！"
+Exception: Sayer 'Allen獸妹妹' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/part1/1_wake_up.rpy", line 94, in script
-    Joe "呃呃...sfmfnjdizpkwondaskf…ndnsfj…ChinaXiJingPing…"
-  File "D:\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+  File "game/scripts/part2/4_loop4.rpy", line 20, in script
+    Allen獸妹妹 "呃！你爲什麽...那麽執著...美好的虛擬世界不好嗎？！"
+  File "C:\Program Files\Renpy\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
     who = eval_who(self.who, self.who_fast)
-  File "D:\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+  File "C:\Program Files\Renpy\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
     raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'Joe' is not defined.
+Exception: Sayer 'Allen獸妹妹' is not defined.
 
-Windows-10-10.0.22621 AMD64
+Windows-10-10.0.19045 AMD64
 Ren'Py 8.0.3.22090809
 Uniloop 1.0
-Thu May 11 17:01:47 2023
+Thu May 11 21:20:02 2023
