@@ -3,7 +3,7 @@ label loop3:
     narrator "（你醒了過來）"
     unicorn "哥哥.. 快起床啦！ >w<"
     scene room
-    show unicorn_normal at center
+    show unicorn_weird_2 at center
     show ak47 with dissolve
     narrator "（你覺得自己已經扯過一次旗）"
     you "你 等我一下，我胯下的AK-47站起來了!"
@@ -45,11 +45,12 @@ label loop3:
     menu toilet:
         "你吃起了馬桶裏的屎":
             you "係...係鮑魚味的屎！"
-            narrator "（你的視綫逐漸模糊）"
+            narrator "（你的視線逐漸模糊）"
             jump loop2
         "你拿起了馬桶裏的屎":
-            narrator "（去完厠所準備開門時聽到外面有奇怪的聲音）"
+            narrator "（去完廁所準備開門時聽到外面有奇怪的聲音）"
     scene roomnight
+    show unicorn_weird_3 at center
     narrator "（你打開門看見獨角獸妹妹的臉閃爍了一下）"
     unicorn "獨角獸妹妹：你出來了啊...哥哥。"
     narrator "（你察覺到獨角獸妹妹有點異樣）"
@@ -57,19 +58,23 @@ label loop3:
         "你吃起了馬桶裏的屎":
             you "肚子好痛！"
             scene BathroomVirtual
-            narrator "（你立即跑回厠所裏開始噴屎）"
+            narrator "（你立即跑回廁所裏開始噴屎）"
             jump toilet
         "你把屎扔到獨角獸妹妹的臉上":
             unicorn "你好玩不玩，玩屎？！"
     narrator "（獨角獸妹妹的臉開始閃爍）"
+    show unicorn_weird_4 at center
     narrator "（獨角獸妹妹的臉變成Allen的臉）"
     you "你是？！"
     unicorn_allen "別看我的臉！你不能想起我的存在！"
     you "頭好痛！你做了什麼！"
     unicorn_allen "那是你的記憶要回來的前兆！"
+    play sound "audio/knife_stab.mp3"
+    scene roomnight at Shake((1.1, 1.0, 1.0, 1.0), 1.0, dist=55)
+    show unicorn_weird_2 at center
     narrator "（一把飛刀插在了你的頭上）"
     unicorn_allen "只要你一直在循環裏..."
-    narrator "（你的視綫逐漸模糊）"
+    narrator "（你的視線逐漸模糊）"
     unicorn_allen "你就不用面對這殘酷的現實了。"
     scene blank
     jump loop4

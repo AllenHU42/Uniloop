@@ -66,6 +66,16 @@ define unicorn = Character('獨角獸妹妹', color="#960e96")
 define unicorn_allen = Character('獨角獸妹妹', color="#250daf")
 image unicorn_normal:
     "unicorn.png"
+image unicorn_weird:
+    "unicorn_weird.png"
+image unicorn_weird_2:
+    "unicorn_weird_2.png"
+image unicorn_weird_3:
+    "unicorn_weird_3.png"
+image unicorn_weird_4:
+    "unicorn_weird_4.png"
+image unicorn_weird_5:
+    "unicorn_weird_5.png"
 # 遊戲從這裡開始。
 label start:
     jump wake_up

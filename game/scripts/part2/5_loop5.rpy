@@ -13,17 +13,17 @@ label loop5:
             narrator "（你放了個屁）"
         "急尿":
             narrator "（你脫下褲子想打飛機，但你的J很痛，於是你咬斷了自己的J）"
-            narrator "（你的視綫逐漸模糊）"
+            narrator "（你的視線逐漸模糊）"
             jump loop5
     scene BathroomReal
-    narrator "（你進入厠所發現一具尸體，他的頭塞在馬桶裏）"
+    narrator "（你進入廁所發現一具尸體，他的頭塞在馬桶裏）"
     narrator "（你的屎氣上了頭）"
     narrator "（你的屎氣讓你記起了所有事情）"
     narrator "（你記得Joe Biden和Mbappe在快掉入尿裏時放了一個屁）"
     narrator "（但那個屁太響，讓普京以爲美國攻擊他，於是普京也放了一個屁，這個皮導致了連鎖反應，在這一刻，全世界的人都放了一個屁，世界的空氣因此變得不適宜人類呼吸）"
     scene realroom
     narrator "（在這個世界末日之時，你們用光積蓄終於建造了一臺機器，這臺機器能將人的想象具象化，但可惜由於Plum和Allen銀行存款等於0，沒有時間和資源建多三臺，於是G7一行人決定用LOL單挑決定）"
-    narrator "（由於G7和Plum刪除了LOL無法參加，於是Allen和你單挑，最後你用提莫致盲了Allen，導致Allen去厠所時掉入馬桶，但你們三人都以爲Allen便秘，於是沒有等Allen，你就進入了機器）"
+    narrator "（由於G7和Plum刪除了LOL無法參加，於是Allen和你單挑，最後你用提莫致盲了Allen，導致Allen去廁所時掉入馬桶，但你們三人都以爲Allen便秘，於是沒有等Allen，你就進入了機器）"
     you "現在的空氣...不臭了...但你們老母的鮑魚...也不臭了..."
     narrator "（你不知道這個世界還有沒有人在，你感到迷惘）"
     narrator "（你現在覺得自己應該）"
@@ -58,7 +58,7 @@ label loop5:
                     unicorn_allen "好吧，我尊重你的決定，但是因爲我永遠只能在這機器裏，所以...你能實現我一個願望嗎？"
                     narrator "（你用力點了點頭）"
                     unicorn_allen "你記得...你一定要..."
-                    narrator "（你張大耳朵用心聼）"
+                    narrator "（你張大耳朵仔細聽）"
                     unicorn_allen "你一定要..."
                     unicorn_allen "屌爆你老母個屎眼！"
                     #ending 2#

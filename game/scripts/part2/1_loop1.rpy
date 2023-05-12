@@ -7,13 +7,22 @@ image BathroomVirtual:
     xalign -10
 image red:
     "Red.jpg"
+    zoom 3
 image BathroomReal:
+    zoom 3
     "Bathroom_real.jpg"
+image bed:
+    zoom 4
+    yalign 0.7
+    "bed.png"
 image Apocalypse:
+    zoom 3
     "Apocalypse.jpg"
 image electronicroom:
     "electronic_room.jpg"
+    zoom 2
 image realroom:
+    zoom 2
     "Real_Room.jpg"
 label loop1:
     scene black
@@ -49,8 +58,9 @@ label loop1:
             narrator "（回家後你睡了個好覺）"
             jump loop1
         "我只想他幫我做三文治":
-            narrator "（去完厠所準備開門時聽到外面有奇怪的聲音）"
+            narrator "（去完廁所準備開門時聽到外面有奇怪的聲音）"
     scene roomnight
+    show unicorn_weird at center
     narrator "（你打開門看見獨角獸妹妹的臉閃爍了一下）"
     unicorn "你出來了啊...哥哥。"
     you "（你察覺到獨角獸妹妹有點異樣）"
@@ -65,14 +75,19 @@ label loop1:
         "去你媽":
             unicorn"是嗎...那麼..."
     unicorn "只能重來了啊。"
+    play sound "audio/knife_stab.mp3"
+    scene roomnight at Shake((1.1, 1.0, 1.0, 1.0), 1.0, dist=55)
+    show unicorn_weird_2 at center
     narrator "（你看見胸口被插了一刀）"
-    scene red #shake screen here#
+    scene red
     menu:
         "啊~舒服~":
+            play sound "audio/splatter.mp3"
             narrator "（獨角獸妹妹拔出刀）"
         "你媽死了":
+            play sound "audio/splatter.mp3"
             narrator "（獨角獸妹妹拔出刀）"
-    narrator "（你的視綫逐漸模糊）"
+    narrator "（你的視線逐漸模糊）"
     scene black
     jump loop2
         

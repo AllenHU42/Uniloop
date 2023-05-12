@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/part2/4_loop4.rpy", line 9: expected statement.
-    zoom 2
-          ^
-
-File "game/scripts/part2/5_loop5.rpy", line 40: choice menuitem expects a non-empty block.
-    "玩LOL":
-           ^
+File "game/scripts/part2/1_loop1.rpy", line 75: choice menuitem expects a non-empty block.
+    "啊~舒服~":
+            ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Thu May 11 16:58:56 2023
+Fri May 12 12:42:05 2023

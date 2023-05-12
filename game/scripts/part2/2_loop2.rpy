@@ -3,7 +3,7 @@ label loop2:
     narrator "（你醒了過來）"
     unicorn "哥哥.. 快起床啦！ >w<"
     scene room
-    show unicorn_normal at center
+    show unicorn_weird at center
     show ak47 with dissolve
     narrator "（你覺得自己已經扯過一次旗）"
     you "你 等我一下，我胯下的AK-47站起來了!"
@@ -54,6 +54,7 @@ label loop2:
         "拿起防身":
             narrator "（去完廁所準備開門時聽到外面有奇怪的聲音）"
     scene roomnight
+    show unicorn_weird_2 at center
     narrator "（你打開門看見獨角獸妹妹的臉閃爍了一下）"
     unicorn "你出來了啊...哥哥。"
     you "（你察覺到獨角獸妹妹有點異樣）"
@@ -68,12 +69,17 @@ label loop2:
         "去你媽":
             unicorn"是嗎...那麼..."
     unicorn "只能重來了啊。"
+    play sound "audio/knife_stab.mp3"
     narrator "（你拿起鏡子碎片插入獨角獸妹妹的肩膀）"
     unicorn "獨角獸妹妹：啊~舒服~"
+    play sound "audio/splatter.mp3"
     unicorn "（獨角獸妹妹把碎片拔了出來）"
     unicorn "獨角獸妹妹：你還是要回去的，不像我，掉入屎坑出不來了。"
+    play sound "audio/knife_stab.mp3"
+    scene roomnight at Shake((1.1, 1.0, 1.0, 1.0), 1.0, dist=55)
+    show unicorn_weird_2 at center
     narrator "（獨角獸妹妹把碎片插入你的喉嚨）"
     scene red
-    narrator "（你的視綫逐漸模糊）"
+    narrator "（你的視線逐漸模糊）"
     scene black
     jump loop3
