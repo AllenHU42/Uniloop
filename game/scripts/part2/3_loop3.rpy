@@ -46,7 +46,7 @@ label loop3:
         "你吃起了馬桶裏的屎":
             you "係...係鮑魚味的屎！"
             narrator "（你的視線逐漸模糊）"
-            jump loop2
+            jump loop3
         "你拿起了馬桶裏的屎":
             narrator "（去完廁所準備開門時聽到外面有奇怪的聲音）"
     scene roomnight
